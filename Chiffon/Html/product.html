@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chiffon-About</title>
+    <link href="/IMG/logo/logo.png" rel="icon" />
+    <!--reset css-->
+    <link href="/css/reset.css" rel="stylesheet" />
+    <!--css-->
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/chiffon.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="http://127.0.0.1:5501/Html/homepage.html">
+          <img src="../IMG/logo/chiffon_logo_white.png" height="70px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://www.chiffon-cake.com.tw/"
+                target="_blank"
+              >
+                <span class="eng-title">News</span>
+                <span>最新消息</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/Html/about.html"
+                target="_blank"
+              >
+                <span class="eng-title">About</span>
+                <span>關於我們</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/Html/product.html"
+                target="_blank"
+              >
+                <span class="eng-title">Product</span>
+                <span>商品一覽</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://www.chiffon-cake.com.tw/faq"
+                target="_blank"
+              >
+                <span class="eng-title">Q&A</span>
+                <span>常見問題</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="nav-right">
+            <li>
+              <a class="navbar-brand" href="#">
+                <img src="/IMG/nav-img/login.png" height="48px" />
+                <p class="text-16px">會員登入/註冊</p>
+              </a>
+            </li>
+            <li>
+              <a class="navbar-brand" href="#">
+                <img src="/IMG/nav-img/Basket.png" height="67px" />
+                <p class="text-16px">購物車</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 輪播 -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../IMG/banner/banner1.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../IMG/banner/banner2.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../IMG/banner/banner3.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- 商品一覽 -->
+    <div class="white-bg">
+      <div class="circle">
+        <img src="/IMG/Homepage/white-bg_about2.png" alt="" />
+      </div>
+      <div class="product">
+        <div class="item-menu">
+          <div class="container">
+            <!-- 左邊菜單 -->
+            <div class="item-left-menu">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="/IMG/logo/chiffon_logo_double.png" alt="" />
+                  <div
+                    class="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          禮盒專區
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Placeholder content for this accordion, which is
+                          intended to demonstrate the
+                          <code>.accordion-flush</code> class. This is the first
+                          item's accordion body.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseTwo"
+                        >
+                          抹茶季專區
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Placeholder content for this accordion, which is
+                          intended to demonstrate the
+                          <code>.accordion-flush</code> class. This is the
+                          second item's accordion body. Let's imagine this being
+                          filled with some actual content.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          蛋糕系列
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Placeholder content for this accordion, which is
+                          intended to demonstrate the
+                          <code>.accordion-flush</code> class. This is the third
+                          item's accordion body. Nothing more exciting happening
+                          here in terms of content, but just filling up the
+                          space to make it look, at least at first glance, a bit
+                          more representative of how this would look in a
+                          real-world application.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 冷藏甜點點心系列 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          冷藏甜點點心系列
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Placeholder content for this accordion, which is
+                          intended to demonstrate the
+                          <code>.accordion-flush</code> class. This is the first
+                          item's accordion body.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          常溫點心類
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Placeholder content for this accordion, which is
+                          intended to demonstrate the
+                          <code>.accordion-flush</code> class. This is the first
+                          item's accordion body.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          其他
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Placeholder content for this accordion, which is
+                          intended to demonstrate the
+                          <code>.accordion-flush</code> class. This is the first
+                          item's accordion body.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 外帶御便當 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          外帶御便當
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          1234567789
+                          <code>.accordion-flush</code> class. This is the first
+                          item's accordion body.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 右邊商品 -->
+            <div class="ITEM-cake">
+              <!-- 第一列 -->
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="item-card-title">栗子蒙布朗</h5>
+                      <p class="item-card-text">
+                        使用秋季最代表性的食材"栗子"作為主角，口感層次鮮明，沉穩的香氣加上不經意咀嚼到的酒香
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">草莓夾餡蛋糕</h5>
+                      <p class="card-text">
+                        以法國進口的頂級鮮奶油為原料，吃起來毫不油膩、舌頭一抿即融化於口中，清爽無負擔。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="抹茶鮮奶油蛋糕">Card title</h5>
+                      <p class="card-text">
+                        以法國進口的頂級鮮奶油為原料，吃起來毫不油膩、舌頭一抿即融化於口中，清爽無負擔。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 第二列 -->
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="item-card-title">栗子蒙布朗</h5>
+                      <p class="item-card-text">
+                        使用秋季最代表性的食材"栗子"作為主角，口感層次鮮明，沉穩的香氣加上不經意咀嚼到的酒香
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 第三列 -->
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="item-card-title">栗子蒙布朗</h5>
+                      <p class="item-card-text">
+                        使用秋季最代表性的食材"栗子"作為主角，口感層次鮮明，沉穩的香氣加上不經意咀嚼到的酒香
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="/IMG/Item/Menu/item1-1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 頁碼 -->
+      <div class="page-number">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-logo">
+          <img src="/IMG/logo/chiffon_logo_white.png" alt="" />
+        </div>
+        <div class="footer1">
+          <p class="font-size-36">聯絡我們</p>
+          <p>
+            <a href="" class="none"> 02-2716-0138</a>
+            <br />
+            <br />
+            實體店面：10489臺北市中山區龍江路79號
+            <br />
+            email：
+            <a href="" class="none">chiffoncake1998@gmail.com</a>
+            <br />
+            LINE ID : @403rekim
+          </p>
+        </div>
+        <div class="footer2">
+          <p class="font-size-36">網站導覽</p>
+          <br />
+          <div class="width-70">
+            <p><a href="">-關於我們</a></p>
+            <p><a href="">-最新消息</a></p>
+            <p><a href="">-聯絡我們</a></p>
+          </div>
+          <div class="width-70">
+            <p><a href="">-線上購物</a></p>
+            <p><a href="">-會員專區</a></p>
+            <p><a href="">-常見問題</a></p>
+          </div>
+          <div class="width-70">
+            <p><a href="">-購物說明</a></p>
+            <p><a href="">-匯款通知</a></p>
+            <p><a href="">-追蹤清單</a></p>
+          </div>
+          <div class="width-116">
+            <p><a href="">-使用條款</a></p>
+            <br />
+            <p><a href="">-免責聲明</a></p>
+            <p><a href="">-隱私權保護政策</a></p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.000163367174!2d121.53230295390628!3d25.051034200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abe5bc547d75%3A0x1aaf5eb0fe2ec2bd!2zQ0hJRkZPTuaJi-W3peibi-ezleW6lw!5e0!3m2!1szh-TW!2stw!4v1670173973237!5m2!1szh-TW!2stw"
+            width="300"
+            height="150"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">
+          <p>
+            Copyright © 2021 CHIFFON日式手工蛋糕店 all rights reserved.
+            網頁設計：蘇新雅
+          </p>
+          <div class="Copyright-img">
+            <div class="Copyright-img1">
+              <a href="https://line.me/R/ti/p/%40403rekim" target="_blank">
+                <img
+                  src="../IMG/Homepage/footer-icon/footer-icon-line.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="Copyright-img2">
+              <a
+                href="https://www.instagram.com/chiffon_taiwan/"
+                target="_blank"
+              >
+                <img
+                  src="../IMG/Homepage/footer-icon/footer-icon-ig.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="Copyright-img3">
+              <a
+                href="https://www.facebook.com/I.Love.ChiffonCake/"
+                target="_blank"
+              >
+                <img
+                  src="../IMG/Homepage/footer-icon/footer-icon-fb.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="/js/bootstrap.js"></script>
+  </body>
+</html>
